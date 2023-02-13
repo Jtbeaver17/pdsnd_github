@@ -23,4 +23,9 @@ washington.csv
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-All credits are listed in the txt file mentioned above. 
+All credits are listed in the txt file mentioned above, but are from:
+https://pynative.com/python-accept-list-input-from-user/
+https://stackoverflow.com/questions/48590268/pandas-get-the-most-frequent-values-of-a-column
+https://sparkbyexamples.com/pandas/pandas-get-column-average-mean/#:~:text=To%20calculate%20the%20mean%20of,all%20numeric%20columns%20using%20DataFrame.
+https://www.w3schools.com/python/pandas/ref_df_min.asp
+
