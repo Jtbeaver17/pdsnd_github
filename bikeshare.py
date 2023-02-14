@@ -1,4 +1,4 @@
-import time
+theimport time
 import pandas as pd
 import numpy as np
 
@@ -19,18 +19,18 @@ def get_filters():
 
     # TO DO: get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     #User input information from personal notes and from https://pynative.com/python-accept-list-input-from-user/
-city=input('Please enter your city here: ')
+city=input('Please enter the city here: ')
 while city not in ['chicago', 'washington', 'new york city']
 	city=input("Please choose between: Chicago, Washington, or New York City."
 
 
     # TO DO: get user input for month (all, january, february, ... , june)
-month=input('Please enter your desired month: ')
+month=input('Please enter the desired month: ')
 while month not in['january', 'february', 'march', 'april', 'may', 'june'].title()
 	month=input('Please enter a month between January and June: ')
 
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
-day=input('Please enter your desired day of the week: ')
+day=input('Please enter the desired day of the week: ')
 
     print('-'*40)
     return city, month, day
